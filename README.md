@@ -19,7 +19,7 @@ We evaluate different versions of **GPT-2** (small, medium, large, and distilled
 - **Fine-tuning GPT-2:** Trains the model for sentiment classification on IMDB data.
 - **Hook-based layer inspection:** Captures intermediate model states during forward passes.
 
-The **entire project is implemented in the Jupyter notebook** `NLPprojectwork_LorenzoVenieri.ipynb`. This notebook contains:
+The **entire project is implemented in the Jupyter notebook** `experiments.ipynb`. This notebook contains:
 1. **Data Preprocessing:** Formatting SST-2 and IMDB data for sentiment classification.
 2. **Logit Lens Implementation:** Extracting and visualizing intermediate layer predictions.
 3. **Zero-shot Analysis:** Evaluating GPT-2 without fine-tuning.
