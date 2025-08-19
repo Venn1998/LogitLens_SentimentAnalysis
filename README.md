@@ -28,7 +28,7 @@ The **entire project is implemented in the Jupyter notebook** `experiments.ipynb
 6. **Overthinking Analysis:** Checking whether models revise correct predictions due to misleading prompts.
 7. **Visualization of Prediction Trajectories:** Heatmaps of token predictions across layers.
 
-🔍 Key Findings
+## Key Findings
 - GPT-2 (pre-trained) performs poorly in zero-shot sentiment classification.
 - Fine-tuning improves accuracy significantly, stabilizing predictions in earlier layers.
 - Intermediate layers sometimes predict the correct label, but the final layer can override it.
